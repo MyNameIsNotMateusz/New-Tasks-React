@@ -4,7 +4,7 @@ const Autor = () => {
   return (
     <>
       <HeaderWrapper>
-        <h1>O autorze</h1>
+        <h1>About the author</h1>
       </HeaderWrapper>
       <DivWrapper>
       <p>Hello! My name is <strong>Mateusz Otorowski</strong> and I am the author of this application.</p>

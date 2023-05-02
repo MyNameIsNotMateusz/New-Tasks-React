@@ -1,24 +1,26 @@
-import Tasks from "./features/tasks/Tasks"
-import { BrowserRouter, Link, Routes, Route } from "react-router-dom";
+import { Routes, Route, HashRouter, Navigate } from "react-router-dom";
+import { StyledNavLink, NavWrapper } from "./styled";
+import Tasks from "./features/tasks/Tasks";
 import Autor from "./features/tasks/author/Author";
 
 const App = () => (
-  <BrowserRouter>
-    <nav>
+  <HashRouter>
+    <NavWrapper>
       <ul>
         <li>
-          <Link to="/zadania">Zadania</Link>
+          <StyledNavLink to="/tasks">Tasks</StyledNavLink>
         </li>
         <li>
-          <Link to="/autor">O autorze</Link>
+          <StyledNavLink to="/author">Author</StyledNavLink>
         </li>
       </ul>
-    </nav>
+    </NavWrapper>
     <Routes>
-      <Route path="/zadania" element={<Tasks />} />
-      <Route path="/autor" element = {<Autor />} />
+      <Route path="/tasks" element={<Tasks />} />
+      <Route path="/author" element={<Autor />} />
+      <Route path="/" element={<Navigate to="/tasks" />} />
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
