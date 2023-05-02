@@ -43,7 +43,7 @@ export const ButtonExampleTasks = styled.button`
     border-radius: 5px;
     background-color: #2195f38c;
     color: white;
-    font-size: 12px;
+    font-size: 15px;
     padding: 5px 10px;
     cursor: pointer;
     transition: 0.5s;
