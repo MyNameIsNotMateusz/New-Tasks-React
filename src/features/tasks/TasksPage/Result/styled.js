@@ -23,3 +23,8 @@ export const SpanWrapper = styled.span`
       transform: scale(1.2);
     }
 `;
+
+export const DivWrapper = styled.div`
+  display: flex;
+  align-items: center;
+`;

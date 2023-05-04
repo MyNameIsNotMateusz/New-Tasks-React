@@ -1,7 +1,6 @@
 import { HeaderWrapper, DivWrapper } from "./styled";
 
-const Autor = () => {
-  return (
+const AuthorPage = () => (
     <>
       <HeaderWrapper>
         <h1>About the author</h1>
@@ -14,6 +13,6 @@ const Autor = () => {
       </DivWrapper>
     </>
   )
-};
 
-export default Autor;
+  export default AuthorPage
+

@@ -1,5 +1,5 @@
 import { DivWrapper, Button } from "./styled"
-import { completeAllTasks, hideCompletedTasks } from "../tasksSlice";
+import { completeAllTasks, hideCompletedTasks } from "../../tasksSlice";
 import { useDispatch } from "react-redux";
 
 const Buttons = () => {

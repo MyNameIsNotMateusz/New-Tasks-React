@@ -1,13 +1,13 @@
-import Header from "../../common/Header";
+import Header from "../../../common/Header";
 import Form from "./Form";
 import Result from "./Result";
 import Buttons from "./Buttons";
-import { useAutoFocus } from "../../useAutoFocus";
+import { useAutoFocus } from "../../../useAutoFocus";
 import { useSelector } from "react-redux";
-import { selectTasks } from "./tasksSlice";
+import { selectTasks } from "../tasksSlice";
 
 
-const Tasks = () => {
+const TasksPage = () => {
 
   const { inputRef } = useAutoFocus();
 
@@ -29,4 +29,4 @@ const Tasks = () => {
   );
 }
 
-export default Tasks;
+export default TasksPage;
