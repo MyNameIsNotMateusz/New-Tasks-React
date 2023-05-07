@@ -4,6 +4,7 @@ import { removeTask, completeTask } from "../../tasksSlice";
 import { Link } from "react-router-dom";
 
 const Result = ({ tasks }) => {
+
   const dispatch = useDispatch();
 
   const handleRemoveTask = (taskId) => {

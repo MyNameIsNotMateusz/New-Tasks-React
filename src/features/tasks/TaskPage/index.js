@@ -13,7 +13,7 @@ const TaskPage = () => {
         <HeaderTaskWrapper>
             <h1>Task details</h1>
             <h4>
-          <strong>Ukończono:</strong> {task.completed ? "Tak" : "Nie"}
+          <strong>Ukończono:</strong> {task.completed ? "Tak 😊" : "Nie 😞"}
             </h4>
         </HeaderTaskWrapper>
         <DivTaskWrapper>
