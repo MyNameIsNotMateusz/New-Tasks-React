@@ -50,6 +50,6 @@ export const { addTasks, completeAllTasks, hideCompletedTasks, removeTask, compl
 
 export const selectTasks = state => state.tasks;
 
-export const getTaskById = (state, taskId) => selectTasks(state).find(({ id }) => id === taskId);
+export const getTaskById = (state, taskId) => state.tasks.tasks.find(({ id }) => id === taskId);
 
 export default tasksSlice.reducer;
