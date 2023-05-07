@@ -14,6 +14,10 @@ const Result = ({ tasks }) => {
     dispatch(completeTask(id));
   };
 
+  const handleLinkClick = (event) => {
+    event.stopPropagation();
+  }
+
   return (
     <div>
       {tasks.map((task) =>
@@ -26,8 +30,10 @@ const Result = ({ tasks }) => {
               {task.text}
             </span>
             <DivWrapper>
-            <SpanWrapper>
-              <Link to={`/tasks/${task.id}`}>🕵</Link>
+              <SpanWrapper>
+                <Link to={`/tasks/${task.id}`} onClick={handleLinkClick}>
+                  🕵
+                </Link>
               </SpanWrapper>
               <SpanWrapper onClick={() => handleRemoveTask(task.id)}>🗑️</SpanWrapper>
             </DivWrapper>
