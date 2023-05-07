@@ -1,9 +1,9 @@
-import { useLocation, useHistory } from "react-router-dom";
+import { useLocation, useNavigate } from "react-router-dom";
 import { SearchWrapper, InputToSearchWrapper } from "./styled";
 
 const Search = () => {
     const location = useLocation();
-    const history = useHistory();
+    const navigate = useNavigate();
     const query = (new URLSearchParams(location.search)).get("szukaj");
 
     const onInputChange = ({ target }) => {
@@ -15,7 +15,7 @@ const Search = () => {
             searchParams.set("szukaj", target.value);
         };
 
-        history.push(`${location.pathname}?${searchParams.toString()}`);
+        navigate(`${location.pathname}?${searchParams.toString()}`);
     };
 
     return (
