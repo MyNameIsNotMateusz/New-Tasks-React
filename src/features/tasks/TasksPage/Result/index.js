@@ -31,6 +31,11 @@ const Result = ({ tasks }) => {
               {task.text}
             </span>
             <DivWrapper>
+              <SpanWrapper>
+                <Link to={`/tasks/${task.id}`} onClick={handleLinkClick}>
+                  🕵
+                </Link>
+              </SpanWrapper>
               <SpanWrapper onClick={() => handleRemoveTask(task.id)}>🗑️</SpanWrapper>
             </DivWrapper>
           </ResultWrapper>
