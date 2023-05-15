@@ -25,24 +25,32 @@ const Result = ({ tasks }) => {
         task.isHidden ? null : (
           <ResultWrapper
             onClick={() => handleCompleteTask(task.id)}
-            key={task.id}>
+            key={task.id}
+          >
             <span
-              style={{ textDecoration: task.completed ? "line-through" : "none" }}>
+              style={{ textDecoration: task.completed ? "line-through" : "none" }}
+            >
               {task.text}
             </span>
             <DivWrapper>
               <SpanWrapper>
-                <Link to={`/tasks/${task.id}`} onClick={handleLinkClick}>
+                <Link
+                  to={`${process.env.PUBLIC_URL}/tasks/${task.id}`}
+                  onClick={handleLinkClick}
+                >
                   🕵
                 </Link>
               </SpanWrapper>
-              <SpanWrapper onClick={() => handleRemoveTask(task.id)}>🗑️</SpanWrapper>
+              <SpanWrapper onClick={() => handleRemoveTask(task.id)}>
+                🗑️
+              </SpanWrapper>
             </DivWrapper>
           </ResultWrapper>
         )
       )}
     </div>
   );
+
 };
 
 export default Result;
