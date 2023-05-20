@@ -2,7 +2,7 @@
   "name": "new",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mynameisnotmateusz.github.io/newTasks-react/",
+  "homepage": "https://mynameisnotmateusz.github.io/newTasks-react/#/tasks",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
     "@testing-library/jest-dom": "^5.16.5",
@@ -16,7 +16,7 @@
     "react-scripts": "5.0.1",
     "redux": "^4.2.1",
     "redux-saga": "^1.2.3",
-    "styled-components": "^5.3.9",
+    "styled-components": "^5.3.10",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
