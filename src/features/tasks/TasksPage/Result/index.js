@@ -21,7 +21,7 @@ const Result = ({ tasks }) => {
 
   return (
     <div>
-      {tasks.map((task) =>
+      {tasks?.map((task) =>
         task.isHidden ? null : (
           <ResultWrapper
             onClick={() => handleCompleteTask(task.id)}
