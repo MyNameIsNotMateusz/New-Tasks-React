@@ -11,6 +11,22 @@
 
 - 📫 How to reach me **mati1otorowski@gmail.com**
 
+- 🤝 How to use my app?
+
+1. The application contains two subpages. The first one (the main one) is used to add tasks. The second one contains information about the author.
+
+2. To add a new task, use the form below the list of tasks. Enter a task title and optional description, then click "Add your task"
+
+3. You can delete the task. To do this, hover over the task you want to delete, then click the trash can icon next to the task. In addition, you can mark a task as complete by clicking on it. If you want to mark all tasks as completed, click on the "Complete all" button. You can also hide completed tasks with the "Hide completed" button. If you click on the detective icon, you will see the details of the task.
+
+4. It is possible to filter tasks. Just enter a word or the beginning of the task you want to search for.
+
+5. You can also download sample tasks by clicking the "Get Example Tasks" button.
+
+6. Task data is stored locally in the web browser thanks to local storage. This means that after refreshing the page or closing the browser, the data will be preserved and will be available when you open the application again.
+
+![Tutorial](https://github.com/MyNameIsNotMateusz/The-Weather-App/blob/main/images/The-Weather-App1.2.gif)
+
 - ⚡ Fun fact **I think I'm very hardworking**
 
 <h3 align="left">Connect with me:</h3>
