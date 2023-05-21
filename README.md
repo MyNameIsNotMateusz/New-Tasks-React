@@ -25,7 +25,7 @@
 
 6. Task data is stored locally in the web browser thanks to local storage. This means that after refreshing the page or closing the browser, the data will be preserved and will be available when you open the application again.
 
-![Tutorial](https://github.com/MyNameIsNotMateusz/The-Weather-App/blob/main/images/The-Weather-App1.2.gif)
+![Tutorial](https://github.com/MyNameIsNotMateusz/New-Tasks-React/blob/main/public/New-Tasks-React.gif)
 
 - ⚡ Fun fact **I think I'm very hardworking**
 
