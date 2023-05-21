@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.js": "/New-Tasks-React/static/js/main.3ca31827.js",
+    "main.js": "/New-Tasks-React/static/js/main.02035e93.js",
     "static/js/787.39bb0775.chunk.js": "/New-Tasks-React/static/js/787.39bb0775.chunk.js",
     "index.html": "/New-Tasks-React/index.html",
-    "main.3ca31827.js.map": "/New-Tasks-React/static/js/main.3ca31827.js.map",
+    "main.02035e93.js.map": "/New-Tasks-React/static/js/main.02035e93.js.map",
     "787.39bb0775.chunk.js.map": "/New-Tasks-React/static/js/787.39bb0775.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.3ca31827.js"
+    "static/js/main.02035e93.js"
   ]
 }
